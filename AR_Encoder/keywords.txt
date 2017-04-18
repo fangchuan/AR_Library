@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map For ApolloRobot
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+AR_Encoder	KEYWORD1	AR_Encoder
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+calcMotorSpeed	KEYWORD2
+calcMotorAverageSpeed	KEYWORD2
+calcMotorMileaga	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################

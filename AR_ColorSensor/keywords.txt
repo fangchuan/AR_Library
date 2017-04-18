@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map For ApolloRobot
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+AR_ColorSensor	KEYWORD1	
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+start	        KEYWORD2
+outCount	    KEYWORD2
+selectFilter	KEYWORD2
+scann	        KEYWORD2
+whiteBalance    KEYWORD2
+getResult		KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+RED_FILTER	  LITERAL1
+GREEN_FILTER  LITERAL1
+BLUE_FILTER	  LITERAL1
+NON_FILTER    LITERAL1
+RED_INDEX     LITERAL1
+GREEN_INDEX   LITERAL1
+BLUE_INDEX    LITERAL1
