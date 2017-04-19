@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For ApolloRobot
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+AR_ISD1760	KEYWORD1	
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+initISD1760     	KEYWORD2
+powerUp         	KEYWORD2
+stop				KEYWORD2
+reset				KEYWORD2
+clearInt			KEYWORD2
+readStatus			KEYWORD2
+readCurrentRowAddress	KEYWORD2
+readDeviceId			KEYWORD2
+play				KEYWORD2
+forward				KEYWORD2
+setPlay				KEYWORD2
+readCurrentPlayPtr		KEYWORD2
+readCurrentRecordPtr	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
