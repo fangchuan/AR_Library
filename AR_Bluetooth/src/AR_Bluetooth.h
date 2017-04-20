@@ -1,8 +1,8 @@
 /*
 *********************************************************************************************************
 *
-* 模块名称 : 蜂鸣器类库
-* 文件名称 : AR_Buzzer.h
+* 模块名称 : 串口蓝牙类库
+* 文件名称 : AR_Bluetooth.h
 * 版    本 : V1.0
 * 说    明 : 
 *
@@ -10,8 +10,8 @@
 *
 *********************************************************************************************************
 */
-#ifndef  __AR_BUZZER_H
-#define  __AR_BUZZER_H
+#ifndef  __AR_BLUETOOTH_H
+#define  __AR_BLUETOOTH_H
 
 #if ARDUINO >= 100
  #include "Arduino.h"
@@ -19,12 +19,24 @@
  #include "WProgram.h"
 #endif
 
-class AR_Buzzer{
+//size of rx/tx data buffer
+#define  BT_RX_BUFFER_SIZE  50
+#define  BT_TX_BUFFER_SIZE  50
+//bluetooth baudrate
+#define  BT_BAUDRATE_9600   9600
+#define  BT_BAUDRATE_115200 115200
+
+class AR_Bluetooth{
 public:
-		AR_Buzzer(uint8_t p);
-		void tone(int note,int beats);
+		AR_Bluetooth();
+		void initialize();
+		void analyzeAndExcute();
 private:
-		uint8_t pin;
+		
+		
+		volatile  uint8_t  recBuffer[BT_RX_BUFFER_SIZE];
+		volatile  uint8_t  recData[BT_RX_BUFFER_SIZE];
+
 };
 
 
